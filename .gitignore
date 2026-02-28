@@ -1,7 +1,0 @@
-target/
-*.class
-
-# Eclipse
-.classpath
-.project
-.settings/
