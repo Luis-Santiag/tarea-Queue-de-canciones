@@ -16,9 +16,9 @@ Estructura del Proyecto
 
 data-structure-queue/
 
-data-structure.queue          Librería con la implementación de la cola  
-queueHandler                        Proyecto ejecutable que usa la cola  
-evidencias                          Capturas de ejecución  
+data-structure.queue = Librería con la implementación de la cola  
+queueHandler = Proyecto ejecutable que usa la cola  
+evidencias = Capturas de ejecución  
 README.md
 
 Requisitos
