@@ -1,5 +1,7 @@
 target/
 *.class
-.idea/
-.metadata/
-.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
