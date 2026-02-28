@@ -31,7 +31,7 @@ Cómo compilar el proyecto
 Clonar el repositorio
 
 bash
-git clone 
+git clone
 cd data-structure-queue
 
 Compilar la liberia
