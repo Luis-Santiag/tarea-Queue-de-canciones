@@ -47,3 +47,33 @@ Ejecutar
 cd target
 java -jar queueHandler-0.0.1-SNAPSHOT.jar
 
+
+Decisiones Técnicas
+
+ Se utilizó una estructura enlazada en lugar de arreglo para evitar redimensionamiento.
+ Se separó la librería del handler para cumplir el diseño modular.
+ Se utilizó Maven para permitir compilación automática al clonarse.
+ No se utilizaron estructuras del JDK para cumplir el requisito académico.
+
+ Implementación de Prioridad
+
+La prioridad se implementó agregando un atributo priority en la clase Song
+Cuando se inserta una canción:
+
+Si tiene mayor prioridad, se coloca antes en la cola.
+Si tiene misma prioridad, respeta el orden FIFO.
+
+La inserción se realiza recorriendo manualmente los nodos hasta encontrar la posición correcta.
+Esto permite simular un comportamiento similar a una cola con prioridad sin usar PriorityQueue.
+
+ Simulación de Duración
+
+Cada canción posee un atributo duration (en segundos).
+
+La simulación se realiza utilizando:
+Thread.sleep(duration * 1000)
+
+Esto permite simular el tiempo real de reproducción antes de pasar a la siguiente canción.
+No se utilizaron librerías externas para la simulación.
+
+
